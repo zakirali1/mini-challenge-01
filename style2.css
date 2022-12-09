@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+body {
+    background-color: cccccc;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: #e6e6e6;
+    height: 50px;
+   
+}
+
+ul {
+
+    text-align: right;
+    margin: 10px;
+    
+}
+
+li {
+    list-style-type: none;
+    display:inline;  
+    padding: 10px;
+    
+
+}
+
+
+main {
+    margin-top: 30px;
+}
+
+#welcome {
+    
+    padding:50px;
+    margin-top: 0px;
+    height: 40px;
+    
+}
+.img {
+    margin-top: 10px;
+}
+
+img {
+    width: 400px;
+    
+}
+
+.img {
+    padding: 50px;
+}
+
+#about-us {
+   padding:50px;
+   margin:0px;
+   background-color:  #bfbfbf;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;;
+}
+
+a:visited {
+    color: black;
+    
+}
+
+a:hover {
+    color: red;
+
+}
+
+a:active {
+    color:red
+}
+
+#projects {
+    padding: 50px;
+    background-color: #a6a6a6;
+}
+
+#contact-us {
+    padding: 50px;
+}
